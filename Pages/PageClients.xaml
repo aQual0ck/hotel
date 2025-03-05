@@ -1,0 +1,33 @@
+﻿<Page x:Class="hotel.Pages.PageClients"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:hotel.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageClients">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Menu>
+            <MenuItem Name="menuAdd" Header="Добавить" Click="menuAdd_Click"/>
+        </Menu>
+        <DataGrid Name="dgrClients" AutoGenerateColumns="False" IsReadOnly="True"
+                  Grid.Row="1">
+            <DataGrid.Resources>
+                <Style TargetType="DataGridRow">
+                    <EventSetter Event="MouseDoubleClick" 
+                                 Handler="DataGridRow_MouseDoubleClick"/>
+                </Style>
+            </DataGrid.Resources>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Имя" Width="*" 
+                                    Binding="{Binding ClientName}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Page>
