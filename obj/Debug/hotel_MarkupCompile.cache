@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Projects\Csharp\hotel\App.xaml
-91611836650
+16-387623919
 2-107778721
-261367321234
+34-1635555380
 18-1868600067
-MainWindow.xaml;Pages\PageBlocked.xaml;Pages\PageClients.xaml;Pages\PageLogin.xaml;Pages\PageMain.xaml;Pages\PageRegister.xaml;Pages\PageRooms.xaml;Pages\PageRoomsClients.xaml;Pages\PageUsers.xaml;
+MainWindow.xaml;Pages\PageAddClient.xaml;Pages\PageAddRoom.xaml;Pages\PageAddRoomsClients.xaml;Pages\PageAddUser.xaml;Pages\PageBlocked.xaml;Pages\PageClients.xaml;Pages\PageEditClient.xaml;Pages\PageEditRoom.xaml;Pages\PageEditUser.xaml;Pages\PageLogin.xaml;Pages\PageMain.xaml;Pages\PageRegister.xaml;Pages\PageRooms.xaml;Pages\PageRoomsClients.xaml;Pages\PageUsers.xaml;
 
 False
 

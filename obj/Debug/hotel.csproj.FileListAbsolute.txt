@@ -37,3 +37,17 @@ D:\Projects\Csharp\hotel\obj\Debug\Pages\PageClients.baml
 D:\Projects\Csharp\hotel\obj\Debug\Pages\PageRooms.baml
 D:\Projects\Csharp\hotel\obj\Debug\Pages\PageRoomsClients.baml
 D:\Projects\Csharp\hotel\obj\Debug\Pages\PageUsers.baml
+D:\Projects\Csharp\hotel\obj\Debug\Pages\PageAddClient.g.cs
+D:\Projects\Csharp\hotel\obj\Debug\Pages\PageAddRoom.g.cs
+D:\Projects\Csharp\hotel\obj\Debug\Pages\PageAddRoomsClients.g.cs
+D:\Projects\Csharp\hotel\obj\Debug\Pages\PageAddUser.g.cs
+D:\Projects\Csharp\hotel\obj\Debug\Pages\PageEditClient.g.cs
+D:\Projects\Csharp\hotel\obj\Debug\Pages\PageEditRoom.g.cs
+D:\Projects\Csharp\hotel\obj\Debug\Pages\PageEditUser.g.cs
+D:\Projects\Csharp\hotel\obj\Debug\Pages\PageAddClient.baml
+D:\Projects\Csharp\hotel\obj\Debug\Pages\PageAddRoom.baml
+D:\Projects\Csharp\hotel\obj\Debug\Pages\PageAddRoomsClients.baml
+D:\Projects\Csharp\hotel\obj\Debug\Pages\PageAddUser.baml
+D:\Projects\Csharp\hotel\obj\Debug\Pages\PageEditClient.baml
+D:\Projects\Csharp\hotel\obj\Debug\Pages\PageEditRoom.baml
+D:\Projects\Csharp\hotel\obj\Debug\Pages\PageEditUser.baml

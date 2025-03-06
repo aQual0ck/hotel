@@ -31,8 +31,6 @@
     <Property Name="CategoryId" Type="int" Nullable="false" />
     <Property Name="StatusId" Type="int" Nullable="false" />
   </EntityType>
-  <!--Ошибки, обнаруженные при создании:
-предупреждение 6002: В таблице или представлении "hotel.dbo.RoomsClients" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
   <EntityType Name="RoomsClients">
     <Key>
       <PropertyRef Name="RoomId" />
@@ -49,6 +47,16 @@
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="StatusName" Type="nvarchar" MaxLength="55" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
   </EntityType>
   <EntityType Name="Users">
     <Key>
@@ -128,16 +136,10 @@
     <EntitySet Name="Clients" EntityType="Self.Clients" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Rooms" EntityType="Self.Rooms" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RoomsClients" EntityType="Self.RoomsClients" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Statuses" EntityType="Self.Statuses" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="RoomsClients" EntityType="Self.RoomsClients" store:Type="Tables" store:Schema="dbo">
-      <DefiningQuery>SELECT 
-    [RoomsClients].[RoomId] AS [RoomId], 
-    [RoomsClients].[ClientId] AS [ClientId], 
-    [RoomsClients].[MoveInDate] AS [MoveInDate], 
-    [RoomsClients].[MoveOutDate] AS [MoveOutDate]
-    FROM [dbo].[RoomsClients] AS [RoomsClients]</DefiningQuery>
-    </EntitySet>
     <AssociationSet Name="FK__Rooms__CategoryI__2D27B809" Association="Self.FK__Rooms__CategoryI__2D27B809">
       <End Role="Categories" EntitySet="Categories" />
       <End Role="Rooms" EntitySet="Rooms" />

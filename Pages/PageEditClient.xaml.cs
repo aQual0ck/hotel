@@ -42,5 +42,16 @@ namespace hotel.Pages
         {
             AuxClasses.FrameClass.frmObj.GoBack();
         }
+
+        private void menuDel_Click(object sender, RoutedEventArgs e)
+        {
+            if (MessageBox.Show("Вы уверены?", "Удаление клиента", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
+            {
+                AuxClasses.DBClass.entObj.Clients.Remove(client);
+                AuxClasses.DBClass.entObj.SaveChanges();
+                MessageBox.Show("Удалено");
+                AuxClasses.FrameClass.frmObj.GoBack();
+            }
+        }
     }
 }

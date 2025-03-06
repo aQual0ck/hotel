@@ -15,6 +15,7 @@
         </Grid.RowDefinitions>
         <Menu>
             <MenuItem Name="menuBack" Header="Назад" Click="menuBack_Click"/>
+            <MenuItem Name="menuDel" Header="Удалить" Click="menuDel_Click"/>
         </Menu>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" 
             Grid.Row="1">

@@ -1,4 +1,4 @@
-﻿D:\Projects\Csharp\hotel\obj\Debug\GeneratedInternalTypeHelper.g.cs
+﻿
 
 FD:\Projects\Csharp\hotel\MainWindow.xaml;;
 FD:\Projects\Csharp\hotel\Pages\PageBlocked.xaml;;
@@ -9,4 +9,11 @@ FD:\Projects\Csharp\hotel\Pages\PageRegister.xaml;;
 FD:\Projects\Csharp\hotel\Pages\PageRooms.xaml;;
 FD:\Projects\Csharp\hotel\Pages\PageRoomsClients.xaml;;
 FD:\Projects\Csharp\hotel\Pages\PageUsers.xaml;;
+FD:\Projects\Csharp\hotel\Pages\PageAddClient.xaml;;
+FD:\Projects\Csharp\hotel\Pages\PageAddRoom.xaml;;
+FD:\Projects\Csharp\hotel\Pages\PageAddRoomsClients.xaml;;
+FD:\Projects\Csharp\hotel\Pages\PageAddUser.xaml;;
+FD:\Projects\Csharp\hotel\Pages\PageEditClient.xaml;;
+FD:\Projects\Csharp\hotel\Pages\PageEditRoom.xaml;;
+FD:\Projects\Csharp\hotel\Pages\PageEditUser.xaml;;
 

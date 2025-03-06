@@ -3,88 +3,108 @@
   "WorkspaceRootPath": "D:\\Projects\\Csharp\\hotel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|d:\\projects\\csharp\\hotel\\pages\\pageeditroomsclients.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageeditroomsclients.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|D:\\Projects\\Csharp\\hotel\\pages\\pageusers.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageusers.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|d:\\projects\\csharp\\hotel\\pages\\pageaddroomsclients.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageaddroomsclients.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|d:\\projects\\csharp\\hotel\\pages\\pageeditroom.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageeditroom.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|d:\\projects\\csharp\\hotel\\pages\\pageeditclient.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageeditclient.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|d:\\projects\\csharp\\hotel\\pages\\pageaddclient.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageaddclient.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|d:\\projects\\csharp\\hotel\\pages\\pageaddroom.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageaddroom.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|d:\\projects\\csharp\\hotel\\pages\\pageeditroom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageeditroom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|d:\\projects\\csharp\\hotel\\pages\\pageaddroom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageaddroom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|d:\\projects\\csharp\\hotel\\pages\\pageeditclient.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageeditclient.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|d:\\projects\\csharp\\hotel\\pages\\pageclients.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageclients.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|D:\\Projects\\Csharp\\hotel\\pages\\pagerooms.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pagerooms.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|D:\\Projects\\Csharp\\hotel\\pages\\pageusers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageusers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|D:\\Projects\\Csharp\\hotel\\pages\\pagerooms.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pagerooms.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|d:\\projects\\csharp\\hotel\\pages\\pageclients.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|D:\\Projects\\Csharp\\hotel\\pages\\pageclients.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageclients.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|d:\\projects\\csharp\\hotel\\pages\\pageusers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageusers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|D:\\Projects\\Csharp\\hotel\\pages\\pagemain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pagemain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|D:\\Projects\\Csharp\\hotel\\pages\\pageregister.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageregister.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|D:\\Projects\\Csharp\\hotel\\pages\\pagemain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pagemain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|D:\\Projects\\Csharp\\hotel\\pages\\pagelogin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pagelogin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|d:\\projects\\csharp\\hotel\\pages\\pageusers.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageusers.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|d:\\projects\\csharp\\hotel\\pages\\pageaddroomsclients.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageaddroomsclients.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|D:\\Projects\\Csharp\\hotel\\auxclasses\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:auxclasses\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|D:\\Projects\\Csharp\\hotel\\pages\\pageaddroomsclients.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageaddroomsclients.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|D:\\Projects\\Csharp\\hotel\\pages\\pageaddroom.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageaddroom.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|D:\\Projects\\Csharp\\hotel\\pages\\pageroomsclients.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageroomsclients.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|D:\\Projects\\Csharp\\hotel\\pages\\pageroomsclients.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageroomsclients.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|d:\\projects\\csharp\\hotel\\pages\\pageroomsclients.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageroomsclients.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|D:\\Projects\\Csharp\\hotel\\pages\\pagemain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pagemain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|d:\\projects\\csharp\\hotel\\auxclasses\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:auxclasses\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|D:\\Projects\\Csharp\\hotel\\pages\\pagemain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pagemain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|d:\\projects\\csharp\\hotel\\pages\\pageedituser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageedituser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|D:\\Projects\\Csharp\\hotel\\pages\\pageeditroom.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageeditroom.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|d:\\projects\\csharp\\hotel\\pages\\pageedituser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageedituser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|D:\\Projects\\Csharp\\hotel\\pages\\pageeditclient.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageeditclient.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|d:\\projects\\csharp\\hotel\\pages\\pageadduser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageadduser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|d:\\projects\\csharp\\hotel\\pages\\pageadduser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageadduser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|D:\\Projects\\Csharp\\hotel\\pages\\pageeditroom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageeditroom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|D:\\Projects\\Csharp\\hotel\\pages\\pageeditclient.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageeditclient.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|D:\\Projects\\Csharp\\hotel\\pages\\pageaddclient.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageaddclient.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|D:\\Projects\\Csharp\\hotel\\pages\\pageaddroom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|solutionrelative:pages\\pageaddroom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06F62964-DB5F-44EE-8FBA-7215025FAAFB}|hotel.csproj|D:\\Projects\\Csharp\\hotel\\pages\\pageregister.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -110,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,119 +138,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PageEditRoomsClients.xaml",
-              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageEditRoomsClients.xaml",
-              "RelativeDocumentMoniker": "Pages\\PageEditRoomsClients.xaml",
-              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageEditRoomsClients.xaml",
-              "RelativeToolTip": "Pages\\PageEditRoomsClients.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-05T08:38:40.379Z",
-              "EditorCaption": ""
+              "DocumentIndex": 9,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\AuxClasses\\Model1.edmx",
+              "RelativeDocumentMoniker": "AuxClasses\\Model1.edmx",
+              "ToolTip": "D:\\Projects\\Csharp\\hotel\\AuxClasses\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "AuxClasses\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-03-04T05:09:12.381Z",
+              "EditorCaption": " [Diagram1]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PageAddRoomsClients.xaml",
-              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageAddRoomsClients.xaml",
-              "RelativeDocumentMoniker": "Pages\\PageAddRoomsClients.xaml",
-              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageAddRoomsClients.xaml",
-              "RelativeToolTip": "Pages\\PageAddRoomsClients.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-05T08:38:25.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PageAddClient.xaml.cs",
-              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageAddClient.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\PageAddClient.xaml.cs",
-              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageAddClient.xaml.cs",
-              "RelativeToolTip": "Pages\\PageAddClient.xaml.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAxwCMAAAAmAAAA",
+              "DocumentIndex": 6,
+              "Title": "PageRegister.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageRegister.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\PageRegister.xaml.cs",
+              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageRegister.xaml.cs",
+              "RelativeToolTip": "Pages\\PageRegister.xaml.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAqwCoAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T08:37:09.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PageEditClient.xaml.cs",
-              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageEditClient.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\PageEditClient.xaml.cs",
-              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageEditClient.xaml.cs",
-              "RelativeToolTip": "Pages\\PageEditClient.xaml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T08:36:59.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Pages\\PageEditRoom.xaml.cs",
-              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageEditRoom.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\PageEditRoom.xaml.cs",
-              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageEditRoom.xaml.cs",
-              "RelativeToolTip": "Pages\\PageEditRoom.xaml.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAkwEAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T08:22:01.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PageEditClient.xaml",
-              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageEditClient.xaml",
-              "RelativeDocumentMoniker": "Pages\\PageEditClient.xaml",
-              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageEditClient.xaml",
-              "RelativeToolTip": "Pages\\PageEditClient.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-05T08:10:28.702Z",
+              "WhenOpened": "2025-03-04T06:38:45.869Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Pages\\PageAddRoom.xaml.cs",
-              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageAddRoom.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\PageAddRoom.xaml.cs",
-              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageAddRoom.xaml.cs",
-              "RelativeToolTip": "Pages\\PageAddRoom.xaml.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAgwDgAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T08:00:49.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PageEditRoom.xaml",
-              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageEditRoom.xaml",
-              "RelativeDocumentMoniker": "Pages\\PageEditRoom.xaml",
-              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageEditRoom.xaml",
-              "RelativeToolTip": "Pages\\PageEditRoom.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-05T07:59:56.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PageAddRoom.xaml",
-              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageAddRoom.xaml",
-              "RelativeDocumentMoniker": "Pages\\PageAddRoom.xaml",
-              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageAddRoom.xaml",
-              "RelativeToolTip": "Pages\\PageAddRoom.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-05T07:59:45.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "PageClients.xaml",
               "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageClients.xaml",
               "RelativeDocumentMoniker": "Pages\\PageClients.xaml",
@@ -242,45 +175,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "PageUsers.xaml.cs",
-              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageUsers.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\PageUsers.xaml.cs",
-              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageUsers.xaml.cs",
-              "RelativeToolTip": "Pages\\PageUsers.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABMAAAA",
+              "DocumentIndex": 1,
+              "Title": "Pages\\PageClients.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageClients.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\PageClients.xaml.cs",
+              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageClients.xaml.cs",
+              "RelativeToolTip": "Pages\\PageClients.xaml.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAA6wDYAAACaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T06:52:11.362Z",
+              "WhenOpened": "2025-03-06T06:31:40.361Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PageUsers.xaml",
-              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageUsers.xaml",
-              "RelativeDocumentMoniker": "Pages\\PageUsers.xaml",
-              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageUsers.xaml",
-              "RelativeToolTip": "Pages\\PageUsers.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-05T06:36:10.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PageRegister.xaml.cs",
-              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageRegister.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\PageRegister.xaml.cs",
-              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageRegister.xaml.cs",
-              "RelativeToolTip": "Pages\\PageRegister.xaml.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAgwCsAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T06:38:45.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "PageRooms.xaml",
               "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageRooms.xaml",
               "RelativeDocumentMoniker": "Pages\\PageRooms.xaml",
@@ -292,20 +200,96 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PageRooms.xaml.cs",
-              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageRooms.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\PageRooms.xaml.cs",
-              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageRooms.xaml.cs",
-              "RelativeToolTip": "Pages\\PageRooms.xaml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T06:10:33.913Z",
+              "DocumentIndex": 3,
+              "Title": "PageUsers.xaml",
+              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageUsers.xaml",
+              "RelativeDocumentMoniker": "Pages\\PageUsers.xaml",
+              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageUsers.xaml",
+              "RelativeToolTip": "Pages\\PageUsers.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-05T06:36:10.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 0,
+              "Title": "PageUsers.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageUsers.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\PageUsers.xaml.cs",
+              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageUsers.xaml.cs",
+              "RelativeToolTip": "Pages\\PageUsers.xaml.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAQwFkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T06:52:11.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PageAddRoomsClients.xaml",
+              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageAddRoomsClients.xaml",
+              "RelativeDocumentMoniker": "Pages\\PageAddRoomsClients.xaml",
+              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageAddRoomsClients.xaml",
+              "RelativeToolTip": "Pages\\PageAddRoomsClients.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-05T08:38:25.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Pages\\PageAddRoomsClients.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageAddRoomsClients.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\PageAddRoomsClients.xaml.cs",
+              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageAddRoomsClients.xaml.cs",
+              "RelativeToolTip": "Pages\\PageAddRoomsClients.xaml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwCQAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T05:11:08.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PageLogin.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageLogin.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\PageLogin.xaml.cs",
+              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageLogin.xaml.cs",
+              "RelativeToolTip": "Pages\\PageLogin.xaml.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowD4AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T05:14:43.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PageAddRoom.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageAddRoom.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\PageAddRoom.xaml.cs",
+              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageAddRoom.xaml.cs",
+              "RelativeToolTip": "Pages\\PageAddRoom.xaml.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T08:00:49.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PageRoomsClients.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageRoomsClients.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\PageRoomsClients.xaml.cs",
+              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageRoomsClients.xaml.cs",
+              "RelativeToolTip": "Pages\\PageRoomsClients.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T06:24:53.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "PageRoomsClients.xaml",
               "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageRoomsClients.xaml",
               "RelativeDocumentMoniker": "Pages\\PageRoomsClients.xaml",
@@ -313,19 +297,6 @@
               "RelativeToolTip": "Pages\\PageRoomsClients.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-05T06:16:34.01Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PageMain.xaml.cs",
-              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageMain.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\PageMain.xaml.cs",
-              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageMain.xaml.cs",
-              "RelativeToolTip": "Pages\\PageMain.xaml.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAiwC0AAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T06:11:42.547Z",
               "EditorCaption": ""
             },
             {
@@ -342,56 +313,156 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PageLogin.xaml.cs",
-              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageLogin.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\PageLogin.xaml.cs",
-              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageLogin.xaml.cs",
-              "RelativeToolTip": "Pages\\PageLogin.xaml.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAowDgAAABeAAAA",
+              "DocumentIndex": 14,
+              "Title": "PageMain.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageMain.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\PageMain.xaml.cs",
+              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageMain.xaml.cs",
+              "RelativeToolTip": "Pages\\PageMain.xaml.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAiwDMAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T05:14:43.442Z",
+              "WhenOpened": "2025-03-05T06:11:42.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PageEditRoom.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageEditRoom.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\PageEditRoom.xaml.cs",
+              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageEditRoom.xaml.cs",
+              "RelativeToolTip": "Pages\\PageEditRoom.xaml.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAowEkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T08:22:01.798Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "PageRoomsClients.xaml.cs",
-              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageRoomsClients.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\PageRoomsClients.xaml.cs",
-              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageRoomsClients.xaml.cs",
-              "RelativeToolTip": "Pages\\PageRoomsClients.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABaAAAA",
+              "Title": "PageEditClient.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageEditClient.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\PageEditClient.xaml.cs",
+              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageEditClient.xaml.cs",
+              "RelativeToolTip": "Pages\\PageEditClient.xaml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwC8AAABnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T06:24:53.322Z",
+              "WhenOpened": "2025-03-05T08:36:59.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "Model1.edmx [Diagram1]",
-              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\AuxClasses\\Model1.edmx",
-              "RelativeDocumentMoniker": "AuxClasses\\Model1.edmx",
-              "ToolTip": "D:\\Projects\\Csharp\\hotel\\AuxClasses\\Model1.edmx [Diagram1]",
-              "RelativeToolTip": "AuxClasses\\Model1.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-03-04T05:09:12.381Z",
-              "EditorCaption": " [Diagram1]"
+              "Title": "PageAddUser.xaml",
+              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageAddUser.xaml",
+              "RelativeDocumentMoniker": "Pages\\PageAddUser.xaml",
+              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageAddUser.xaml",
+              "RelativeToolTip": "Pages\\PageAddUser.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-06T05:47:21.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PageAddRoom.xaml",
+              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageAddRoom.xaml",
+              "RelativeDocumentMoniker": "Pages\\PageAddRoom.xaml",
+              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageAddRoom.xaml",
+              "RelativeToolTip": "Pages\\PageAddRoom.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-05T07:59:45.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PageEditUser.xaml",
+              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageEditUser.xaml",
+              "RelativeDocumentMoniker": "Pages\\PageEditUser.xaml",
+              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageEditUser.xaml",
+              "RelativeToolTip": "Pages\\PageEditUser.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-06T05:47:47.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Pages\\PageEditUser.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageEditUser.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\PageEditUser.xaml.cs",
+              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageEditUser.xaml.cs",
+              "RelativeToolTip": "Pages\\PageEditUser.xaml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T06:06:13.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Pages\\PageAddUser.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageAddUser.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\PageAddUser.xaml.cs",
+              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageAddUser.xaml.cs",
+              "RelativeToolTip": "Pages\\PageAddUser.xaml.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T05:56:27.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PageEditClient.xaml",
+              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageEditClient.xaml",
+              "RelativeDocumentMoniker": "Pages\\PageEditClient.xaml",
+              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageEditClient.xaml",
+              "RelativeToolTip": "Pages\\PageEditClient.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-05T08:10:28.702Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
+              "Title": "PageEditRoom.xaml",
+              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageEditRoom.xaml",
+              "RelativeDocumentMoniker": "Pages\\PageEditRoom.xaml",
+              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageEditRoom.xaml",
+              "RelativeToolTip": "Pages\\PageEditRoom.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-05T07:59:56.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PageAddClient.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageAddClient.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\PageAddClient.xaml.cs",
+              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageAddClient.xaml.cs",
+              "RelativeToolTip": "Pages\\PageAddClient.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAxwCMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T08:37:09.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "PageBlocked.xaml",
               "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageBlocked.xaml",
               "RelativeDocumentMoniker": "Pages\\PageBlocked.xaml",
               "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageBlocked.xaml",
               "RelativeToolTip": "Pages\\PageBlocked.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-04T06:47:27.033Z"
+              "WhenOpened": "2025-03-04T06:47:27.033Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "PageBlocked.xaml.cs",
               "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageBlocked.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\PageBlocked.xaml.cs",
@@ -403,25 +474,61 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "PageRegister.xaml",
               "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageRegister.xaml",
               "RelativeDocumentMoniker": "Pages\\PageRegister.xaml",
               "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageRegister.xaml",
               "RelativeToolTip": "Pages\\PageRegister.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-04T06:34:00.734Z"
+              "WhenOpened": "2025-03-04T06:34:00.734Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "PageLogin.xaml",
               "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageLogin.xaml",
               "RelativeDocumentMoniker": "Pages\\PageLogin.xaml",
               "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageLogin.xaml",
               "RelativeToolTip": "Pages\\PageLogin.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-04T05:14:39.793Z"
+              "WhenOpened": "2025-03-04T05:14:39.793Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "4e5d397e-5828-4282-9487-ad49c3ef9ce7",
+        "Display": 0,
+        "X": 1168,
+        "Y": 273,
+        "Width": 1575,
+        "Height": 762,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PageRooms.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\Csharp\\hotel\\Pages\\PageRooms.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\PageRooms.xaml.cs",
+              "ToolTip": "D:\\Projects\\Csharp\\hotel\\Pages\\PageRooms.xaml.cs",
+              "RelativeToolTip": "Pages\\PageRooms.xaml.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAowEQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T06:10:33.913Z",
+              "EditorCaption": ""
             }
           ]
         }

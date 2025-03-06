@@ -1,28 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="hotelModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="hotelEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Categories" EntityType="hotelModel.Categories" />
+    <EntitySet Name="Clients" EntityType="hotelModel.Clients" />
+    <EntitySet Name="Roles" EntityType="hotelModel.Roles" />
+    <EntitySet Name="Rooms" EntityType="hotelModel.Rooms" />
+    <EntitySet Name="RoomsClients" EntityType="hotelModel.RoomsClients" />
+    <EntitySet Name="Statuses" EntityType="hotelModel.Statuses" />
+    <EntitySet Name="sysdiagrams" EntityType="hotelModel.sysdiagrams" />
+    <EntitySet Name="Users" EntityType="hotelModel.Users" />
+    <AssociationSet Name="FK__Rooms__CategoryI__2D27B809" Association="hotelModel.FK__Rooms__CategoryI__2D27B809">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Rooms" EntitySet="Rooms" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RoomsClie__Clien__35BCFE0A" Association="hotelModel.FK__RoomsClie__Clien__35BCFE0A">
+      <End Role="Clients" EntitySet="Clients" />
+      <End Role="RoomsClients" EntitySet="RoomsClients" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Users__RoleId__267ABA7A" Association="hotelModel.FK__Users__RoleId__267ABA7A">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Rooms__StatusId__2E1BDC42" Association="hotelModel.FK__Rooms__StatusId__2E1BDC42">
+      <End Role="Statuses" EntitySet="Statuses" />
+      <End Role="Rooms" EntitySet="Rooms" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RoomsClie__RoomI__34C8D9D1" Association="hotelModel.FK__RoomsClie__RoomI__34C8D9D1">
+      <End Role="Rooms" EntitySet="Rooms" />
+      <End Role="RoomsClients" EntitySet="RoomsClients" />
+    </AssociationSet>
+  </EntityContainer>
   <EntityType Name="Categories">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="CategoryName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
-    <NavigationProperty Name="Rooms" Relationship="Self.FK__Rooms__CategoryI__2D27B809" FromRole="Categories" ToRole="Rooms" />
+    <Property Name="CategoryName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Rooms" Relationship="hotelModel.FK__Rooms__CategoryI__2D27B809" FromRole="Categories" ToRole="Rooms" />
   </EntityType>
   <EntityType Name="Clients">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="ClientName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
-    <NavigationProperty Name="RoomsClients" Relationship="Self.FK__RoomsClie__Clien__35BCFE0A" FromRole="Clients" ToRole="RoomsClients" />
+    <Property Name="ClientName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="RoomsClients" Relationship="hotelModel.FK__RoomsClie__Clien__35BCFE0A" FromRole="Clients" ToRole="RoomsClients" />
   </EntityType>
   <EntityType Name="Roles">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="RoleName" Type="String" MaxLength="55" FixedLength="false" Unicode="true" Nullable="false" />
-    <NavigationProperty Name="Users" Relationship="Self.FK__Users__RoleId__267ABA7A" FromRole="Roles" ToRole="Users" />
+    <Property Name="RoleName" Type="String" Nullable="false" MaxLength="55" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Users" Relationship="hotelModel.FK__Users__RoleId__267ABA7A" FromRole="Roles" ToRole="Users" />
   </EntityType>
   <EntityType Name="Rooms">
     <Key>
@@ -33,31 +63,9 @@
     <Property Name="Floor" Type="Int32" Nullable="false" />
     <Property Name="CategoryId" Type="Int32" Nullable="false" />
     <Property Name="StatusId" Type="Int32" Nullable="false" />
-    <NavigationProperty Name="Categories" Relationship="Self.FK__Rooms__CategoryI__2D27B809" FromRole="Rooms" ToRole="Categories" />
-    <NavigationProperty Name="Statuses" Relationship="Self.FK__Rooms__StatusId__2E1BDC42" FromRole="Rooms" ToRole="Statuses" />
-    <NavigationProperty Name="RoomsClients" Relationship="Self.FK__RoomsClie__RoomI__34C8D9D1" FromRole="Rooms" ToRole="RoomsClients" />
-  </EntityType>
-  <EntityType Name="Statuses">
-    <Key>
-      <PropertyRef Name="Id" />
-    </Key>
-    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="StatusName" Type="String" MaxLength="55" FixedLength="false" Unicode="true" Nullable="false" />
-    <NavigationProperty Name="Rooms" Relationship="Self.FK__Rooms__StatusId__2E1BDC42" FromRole="Statuses" ToRole="Rooms" />
-  </EntityType>
-  <EntityType Name="Users">
-    <Key>
-      <PropertyRef Name="Id" />
-    </Key>
-    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Username" Type="String" MaxLength="24" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="Password" Type="String" MaxLength="16" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="FullName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="RoleId" Type="Int32" Nullable="false" />
-    <Property Name="IsRegistered" Type="Boolean" Nullable="false" />
-    <Property Name="IsBlocked" Type="Boolean" Nullable="false" />
-    <Property Name="LastLoginDate" Type="DateTime" Precision="0" />
-    <NavigationProperty Name="Roles" Relationship="Self.FK__Users__RoleId__267ABA7A" FromRole="Users" ToRole="Roles" />
+    <NavigationProperty Name="Categories" Relationship="hotelModel.FK__Rooms__CategoryI__2D27B809" FromRole="Rooms" ToRole="Categories" />
+    <NavigationProperty Name="Statuses" Relationship="hotelModel.FK__Rooms__StatusId__2E1BDC42" FromRole="Rooms" ToRole="Statuses" />
+    <NavigationProperty Name="RoomsClients" Relationship="hotelModel.FK__RoomsClie__RoomI__34C8D9D1" FromRole="Rooms" ToRole="RoomsClients" />
   </EntityType>
   <EntityType Name="RoomsClients">
     <Key>
@@ -68,12 +76,44 @@
     <Property Name="ClientId" Type="Int32" Nullable="false" />
     <Property Name="MoveInDate" Type="DateTime" Precision="0" />
     <Property Name="MoveOutDate" Type="DateTime" Precision="0" />
-    <NavigationProperty Name="Clients" Relationship="Self.FK__RoomsClie__Clien__35BCFE0A" FromRole="RoomsClients" ToRole="Clients" />
-    <NavigationProperty Name="Rooms" Relationship="Self.FK__RoomsClie__RoomI__34C8D9D1" FromRole="RoomsClients" ToRole="Rooms" />
+    <NavigationProperty Name="Clients" Relationship="hotelModel.FK__RoomsClie__Clien__35BCFE0A" FromRole="RoomsClients" ToRole="Clients" />
+    <NavigationProperty Name="Rooms" Relationship="hotelModel.FK__RoomsClie__RoomI__34C8D9D1" FromRole="RoomsClients" ToRole="Rooms" />
+  </EntityType>
+  <EntityType Name="Statuses">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StatusName" Type="String" Nullable="false" MaxLength="55" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Rooms" Relationship="hotelModel.FK__Rooms__StatusId__2E1BDC42" FromRole="Statuses" ToRole="Rooms" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" Nullable="false" MaxLength="24" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="16" FixedLength="false" Unicode="false" />
+    <Property Name="FullName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="RoleId" Type="Int32" Nullable="false" />
+    <Property Name="IsRegistered" Type="Boolean" Nullable="false" />
+    <Property Name="IsBlocked" Type="Boolean" Nullable="false" />
+    <Property Name="LastLoginDate" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Roles" Relationship="hotelModel.FK__Users__RoleId__267ABA7A" FromRole="Users" ToRole="Roles" />
   </EntityType>
   <Association Name="FK__Rooms__CategoryI__2D27B809">
-    <End Role="Categories" Type="Self.Categories" Multiplicity="1" />
-    <End Role="Rooms" Type="Self.Rooms" Multiplicity="*" />
+    <End Type="hotelModel.Categories" Role="Categories" Multiplicity="1" />
+    <End Type="hotelModel.Rooms" Role="Rooms" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Categories">
         <PropertyRef Name="Id" />
@@ -84,8 +124,8 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK__RoomsClie__Clien__35BCFE0A">
-    <End Role="Clients" Type="Self.Clients" Multiplicity="1" />
-    <End Role="RoomsClients" Type="Self.RoomsClients" Multiplicity="*" />
+    <End Type="hotelModel.Clients" Role="Clients" Multiplicity="1" />
+    <End Type="hotelModel.RoomsClients" Role="RoomsClients" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Clients">
         <PropertyRef Name="Id" />
@@ -96,8 +136,8 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK__Users__RoleId__267ABA7A">
-    <End Role="Roles" Type="Self.Roles" Multiplicity="1" />
-    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <End Type="hotelModel.Roles" Role="Roles" Multiplicity="1" />
+    <End Type="hotelModel.Users" Role="Users" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Roles">
         <PropertyRef Name="Id" />
@@ -108,8 +148,8 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK__Rooms__StatusId__2E1BDC42">
-    <End Role="Statuses" Type="Self.Statuses" Multiplicity="1" />
-    <End Role="Rooms" Type="Self.Rooms" Multiplicity="*" />
+    <End Type="hotelModel.Statuses" Role="Statuses" Multiplicity="1" />
+    <End Type="hotelModel.Rooms" Role="Rooms" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Statuses">
         <PropertyRef Name="Id" />
@@ -120,8 +160,8 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK__RoomsClie__RoomI__34C8D9D1">
-    <End Role="Rooms" Type="Self.Rooms" Multiplicity="1" />
-    <End Role="RoomsClients" Type="Self.RoomsClients" Multiplicity="*" />
+    <End Type="hotelModel.Rooms" Role="Rooms" Multiplicity="1" />
+    <End Type="hotelModel.RoomsClients" Role="RoomsClients" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Rooms">
         <PropertyRef Name="Id" />
@@ -131,33 +171,4 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="hotelEntities" annotation:LazyLoadingEnabled="true">
-    <EntitySet Name="Categories" EntityType="Self.Categories" />
-    <EntitySet Name="Clients" EntityType="Self.Clients" />
-    <EntitySet Name="Roles" EntityType="Self.Roles" />
-    <EntitySet Name="Rooms" EntityType="Self.Rooms" />
-    <EntitySet Name="Statuses" EntityType="Self.Statuses" />
-    <EntitySet Name="Users" EntityType="Self.Users" />
-    <EntitySet Name="RoomsClients" EntityType="Self.RoomsClients" />
-    <AssociationSet Name="FK__Rooms__CategoryI__2D27B809" Association="Self.FK__Rooms__CategoryI__2D27B809">
-      <End Role="Categories" EntitySet="Categories" />
-      <End Role="Rooms" EntitySet="Rooms" />
-    </AssociationSet>
-    <AssociationSet Name="FK__RoomsClie__Clien__35BCFE0A" Association="Self.FK__RoomsClie__Clien__35BCFE0A">
-      <End Role="Clients" EntitySet="Clients" />
-      <End Role="RoomsClients" EntitySet="RoomsClients" />
-    </AssociationSet>
-    <AssociationSet Name="FK__Users__RoleId__267ABA7A" Association="Self.FK__Users__RoleId__267ABA7A">
-      <End Role="Roles" EntitySet="Roles" />
-      <End Role="Users" EntitySet="Users" />
-    </AssociationSet>
-    <AssociationSet Name="FK__Rooms__StatusId__2E1BDC42" Association="Self.FK__Rooms__StatusId__2E1BDC42">
-      <End Role="Statuses" EntitySet="Statuses" />
-      <End Role="Rooms" EntitySet="Rooms" />
-    </AssociationSet>
-    <AssociationSet Name="FK__RoomsClie__RoomI__34C8D9D1" Association="Self.FK__RoomsClie__RoomI__34C8D9D1">
-      <End Role="Rooms" EntitySet="Rooms" />
-      <End Role="RoomsClients" EntitySet="RoomsClients" />
-    </AssociationSet>
-  </EntityContainer>
 </Schema>

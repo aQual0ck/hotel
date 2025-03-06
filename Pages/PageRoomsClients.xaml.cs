@@ -25,5 +25,15 @@ namespace hotel.Pages
             InitializeComponent();
             dgrRoomsClients.ItemsSource = AuxClasses.DBClass.entObj.RoomsClients.ToList();
         }
+
+        private void menuAdd_Click(object sender, RoutedEventArgs e)
+        {
+            AuxClasses.FrameClass.frmObj.Navigate(new PageAddRoomsClients());
+        }
+
+        private void menuUpdate_Click(object sender, RoutedEventArgs e)
+        {
+            dgrRoomsClients.ItemsSource = AuxClasses.DBClass.entObj.RoomsClients.ToList();
+        }
     }
 }

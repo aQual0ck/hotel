@@ -42,7 +42,7 @@ namespace hotel.Pages
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
             int catid = Convert.ToInt32(TypeDescriptor.GetProperties(cmbCategory.SelectionBoxItem)["Id"].GetValue(cmbCategory.SelectionBoxItem));
-            int statid = Convert.ToInt32(TypeDescriptor.GetProperties(cmbCategory.SelectionBoxItem)["Id"].GetValue(cmbCategory.SelectionBoxItem));
+            int statid = Convert.ToInt32(TypeDescriptor.GetProperties(cmbStatus.SelectionBoxItem)["Id"].GetValue(cmbStatus.SelectionBoxItem));
 
             AuxClasses.Rooms room = new AuxClasses.Rooms()
             {

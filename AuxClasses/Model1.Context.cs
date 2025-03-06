@@ -29,8 +29,9 @@ namespace hotel.AuxClasses
         public virtual DbSet<Clients> Clients { get; set; }
         public virtual DbSet<Roles> Roles { get; set; }
         public virtual DbSet<Rooms> Rooms { get; set; }
-        public virtual DbSet<Statuses> Statuses { get; set; }
-        public virtual DbSet<Users> Users { get; set; }
         public virtual DbSet<RoomsClients> RoomsClients { get; set; }
+        public virtual DbSet<Statuses> Statuses { get; set; }
+        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
+        public virtual DbSet<Users> Users { get; set; }
     }
 }

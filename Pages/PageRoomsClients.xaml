@@ -9,7 +9,16 @@
       Title="PageRoomsClients">
 
     <Grid>
-        <DataGrid Name="dgrRoomsClients" AutoGenerateColumns="False" IsReadOnly="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0">
+            <MenuItem Name="menuAdd" Header="Добавить" Click="menuAdd_Click"/>
+            <MenuItem Name="menuUpdate" Header="Обновить" Click="menuUpdate_Click"/>
+        </Menu>
+        <DataGrid Name="dgrRoomsClients" AutoGenerateColumns="False" IsReadOnly="True"
+                  Grid.Row="1">
             <DataGrid.Columns>
                 <DataGridTemplateColumn Header="Комната" Width="*">
                     <DataGridTemplateColumn.CellTemplate>
@@ -34,9 +43,9 @@
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
                 <DataGridTextColumn Header="Въезд" Width="*" 
-                                    Binding="{Binding MoveInDate}"/>
+                                    Binding="{Binding MoveInDate, StringFormat=d}"/>
                 <DataGridTextColumn Header="Выезд" Width="*" 
-                                    Binding="{Binding MoveOutDate}"/>
+                                    Binding="{Binding MoveOutDate, StringFormat=d}"/>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

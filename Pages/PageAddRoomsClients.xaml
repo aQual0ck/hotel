@@ -9,6 +9,38 @@
       Title="PageAddRoomsClients">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0">
+            <MenuItem Name="menuBack" Header="Назад" Click="menuBack_Click"/>
+        </Menu>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" 
+                    Grid.Row="1">
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Комната:" Width="150"/>
+                <ComboBox Name="cmbRoom" Width="150" IsTextSearchEnabled="True" 
+                          IsEditable="True" StaysOpenOnEdit="True" 
+                          IsTextSearchCaseSensitive="False" 
+                          TextBoxBase.TextChanged="cmbRoom_TextChanged"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Клиент:" Width="150"/>
+                <ComboBox Name="cmbClient" Width="150" IsTextSearchEnabled="True" 
+                          IsEditable="True" StaysOpenOnEdit="True" 
+                          IsTextSearchCaseSensitive="False" 
+                          TextBoxBase.TextChanged="cmbClient_TextChanged"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Въезд:" Width="150"/>
+                <DatePicker Name="dpMoveIn" Width="150"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Выезд:" Width="150"/>
+                <DatePicker Name="dpMoveOut" Width="150"/>
+            </StackPanel>
+            <Button Name="btnAdd" Content="Добавить" Width="120" Click="btnAdd_Click"/>
+        </StackPanel>
     </Grid>
 </Page>

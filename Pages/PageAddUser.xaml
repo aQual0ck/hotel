@@ -1,0 +1,50 @@
+﻿<Page x:Class="hotel.Pages.PageAddUser"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:hotel.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageAddUser">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Menu>
+            <MenuItem Name="menuBack" Header="Назад" Click="menuBack_Click"/>
+        </Menu>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" 
+                    Grid.Row="1">
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Логин:" Width="150"/>
+                <TextBox Name="txbUsername" Width="150"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Пароль:" Width="150"/>
+                <TextBox Name="txbPassword" Width="150"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Имя пользователя:" Width="150"/>
+                <TextBox Name="txbFullName" Width="150"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Роль:" Width="150"/>
+                <ComboBox Name="cmbRole" Width="150"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <CheckBox Name="cbIsRegistered" FlowDirection="RightToLeft">
+                    <TextBlock FlowDirection="LeftToRight" Text="Зарегистрирован: "/>
+                </CheckBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <CheckBox Name="cbIsBlocked" FlowDirection="RightToLeft">
+                    <TextBlock FlowDirection="LeftToRight" Text="Заблокирован: "/>
+                </CheckBox>
+            </StackPanel>
+            <Button Name="btnAdd" Content="Добавить" Width="120" Click="btnAdd_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>

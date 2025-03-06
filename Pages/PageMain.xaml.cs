@@ -46,5 +46,10 @@ namespace hotel.Pages
                 tcMain.Items.Add(tabAdmin);
             }
         }
+
+        private void menuExit_Click(object sender, RoutedEventArgs e)
+        {
+            AuxClasses.FrameClass.frmObj.Navigate(new PageLogin());
+        }
     }
 }

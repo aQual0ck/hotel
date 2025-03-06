@@ -11,13 +11,21 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="20"/>
+            <RowDefinition Height="40"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Menu>
             <MenuItem Name="menuAdd" Header="Добавить" Click="menuAdd_Click"/>
+            <MenuItem Name="menuUpdate" Header="Обновить" Click="menuUpdate_Click"/>
         </Menu>
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <ComboBox Name="cmbCategory" Width="200" Height="25" Margin="5, 0"
+                      SelectionChanged="cmbCategory_SelectionChanged"/>
+            <ComboBox Name="cmbStatus" Width="200" Height="25" Margin="5, 0"
+                      SelectionChanged="cmbStatus_SelectionChanged"/>
+        </StackPanel>
         <DataGrid Name="dgrRooms" AutoGenerateColumns="False" IsReadOnly="True" 
-                  Grid.Row="1">
+                  Grid.Row="2">
             <DataGrid.Resources>
                 <Style TargetType="DataGridRow">
                     <EventSetter Event="MouseDoubleClick" 
@@ -31,7 +39,7 @@
                 <DataGridTemplateColumn Header="Категория" Width="*">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <TextBlock DataContext="{Binding Path=Category}">
+                            <TextBlock DataContext="{Binding Path=Categories}">
                                 <TextBlock.Text>
                                     <Binding Path="CategoryName"/>
                                 </TextBlock.Text>

@@ -40,13 +40,13 @@ namespace hotel.Pages
                     }
                     else
                     {
-                        if (userObj.IsRegistered == false) 
+                        if (userObj.IsBlocked == true) 
                         {
-                            AuxClasses.FrameClass.frmObj.Navigate(new PageRegister(userObj));
+                            AuxClasses.FrameClass.frmObj.Navigate(new PageBlocked());
                         }
                         else
                         {
-                            if (userObj.IsBlocked == false)
+                            if (userObj.IsRegistered == true)
                             {
                                 TimeSpan? s = DateTime.Now - userObj.LastLoginDate;
                                 double days = s?.TotalDays ?? 0;
@@ -54,6 +54,7 @@ namespace hotel.Pages
                                 {
                                     userObj.LastLoginDate = DateTime.Now;
                                     AuxClasses.DBClass.entObj.SaveChanges();
+                                    MessageBox.Show("Вы успешно авторизовались");
                                     AuxClasses.FrameClass.frmObj.Navigate(new PageMain(userObj));
                                 }
                                 else
@@ -65,7 +66,7 @@ namespace hotel.Pages
                             }
                             else
                             {
-                                AuxClasses.FrameClass.frmObj.Navigate(new PageBlocked());
+                                AuxClasses.FrameClass.frmObj.Navigate(new PageRegister(userObj));
                             }
                         }
                     }

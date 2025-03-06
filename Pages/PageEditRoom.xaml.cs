@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.ComponentModel;
+using hotel.AuxClasses;
 
 namespace hotel.Pages
 {
@@ -66,6 +67,17 @@ namespace hotel.Pages
         private void menuBack_Click(object sender, RoutedEventArgs e)
         {
             AuxClasses.FrameClass.frmObj.GoBack();
+        }
+
+        private void menuDel_Click(object sender, RoutedEventArgs e)
+        {
+            if (MessageBox.Show("Вы уверены?", "Удаление комнаты", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
+            {
+                AuxClasses.DBClass.entObj.Rooms.Remove(room);
+                AuxClasses.DBClass.entObj.SaveChanges();
+                MessageBox.Show("Удалено");
+                AuxClasses.FrameClass.frmObj.GoBack();
+            }
         }
     }
 }

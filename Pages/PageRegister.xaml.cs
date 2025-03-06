@@ -40,10 +40,11 @@ namespace hotel.Pages
                 if (userObj.Password == psbCurrentPassword.Password && psbNewPassword.Password == psbNewPasswordConfirm.Password)
                 {
                     userObj.Password = psbNewPassword.Password;
+                    userObj.IsRegistered = true;
                     userObj.LastLoginDate = DateTime.Now;
                     AuxClasses.DBClass.entObj.SaveChanges();
                     MessageBox.Show("Пароль успешно изменен");
-                    AuxClasses.FrameClass.frmObj.Navigate(new PageMain());
+                    AuxClasses.FrameClass.frmObj.Navigate(new PageMain(userObj));
                 }
                 else
                 {

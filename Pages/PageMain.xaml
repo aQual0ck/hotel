@@ -14,7 +14,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Menu>
-            <MenuItem Name="menuExit" Header="Выход"/>
+            <MenuItem Name="menuExit" Header="Выход" Click="menuExit_Click"/>
         </Menu>
         <TabControl Name="tcMain" Grid.Row="1">
             <TabItem Header="Комнаты">

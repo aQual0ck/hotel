@@ -24,6 +24,14 @@ namespace hotel.Pages
         {
             InitializeComponent();
             dgrClients.ItemsSource = AuxClasses.DBClass.entObj.Clients.ToList();
+
+            if (string.IsNullOrEmpty(txbSearch.Text))
+            {
+                txbSearch.Text = "Введите имя для поиска";
+                txbSearch.Foreground = Brushes.Gray;
+                txbSearch.GotFocus += RemoveTextSearch;
+                txbSearch.LostFocus += AddTextSearch;
+            }
         }
 
         private void DataGridRow_MouseDoubleClick(object sender, MouseButtonEventArgs e)
@@ -34,6 +42,35 @@ namespace hotel.Pages
         private void menuAdd_Click(object sender, RoutedEventArgs e)
         {
             AuxClasses.FrameClass.frmObj.Navigate(new PageAddClient());
+        }
+
+        private void menuUpdate_Click(object sender, RoutedEventArgs e)
+        {
+            dgrClients.ItemsSource = AuxClasses.DBClass.entObj.Clients.ToList();
+        }
+
+        private void txbSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (txbSearch.Text != "Введите имя для поиска" && !string.IsNullOrEmpty(txbSearch.Text))
+                dgrClients.ItemsSource = AuxClasses.DBClass.entObj.Clients.Where(x => x.ClientName.ToLower().Contains(txbSearch.Text.ToLower())).ToList();
+        }
+
+        private void RemoveTextSearch(object sender, EventArgs e)
+        {
+            if (txbSearch.Text == "Введите имя для поиска")
+            {
+                txbSearch.Text = "";
+                txbSearch.Foreground = Brushes.Black;
+            }
+        }
+
+        private void AddTextSearch(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txbSearch.Text))
+            {
+                txbSearch.Text = "Введите имя для поиска";
+                txbSearch.Foreground = Brushes.Gray;
+            }
         }
     }
 }
