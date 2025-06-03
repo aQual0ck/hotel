@@ -27,46 +27,61 @@ namespace hotel.Pages
             InitializeComponent();
         }
 
+        private int attempts = 0;
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
             try
             {
                 if (txbUsername.Text != "" && psbPassword.Password != "")
                 {
-                    var userObj = AuxClasses.DBClass.entObj.Users.FirstOrDefault(x => x.Username == txbUsername.Text && x.Password == psbPassword.Password);
+                    var userObj = AuxClasses.DBClass.entObj.Users.FirstOrDefault(x => x.Username == txbUsername.Text);
                     if (userObj == null)
                     {
                         tbWarning.Visibility = Visibility.Visible;
                     }
                     else
                     {
-                        if (userObj.IsBlocked == true) 
+                        if (userObj.Password == psbPassword.Password)
                         {
-                            AuxClasses.FrameClass.frmObj.Navigate(new PageBlocked());
-                        }
-                        else
-                        {
-                            if (userObj.IsRegistered == true)
+                            if (userObj.IsBlocked == true)
                             {
-                                TimeSpan? s = DateTime.Now - userObj.LastLoginDate;
-                                double days = s?.TotalDays ?? 0;
-                                if (days < 30)
-                                {
-                                    userObj.LastLoginDate = DateTime.Now;
-                                    AuxClasses.DBClass.entObj.SaveChanges();
-                                    MessageBox.Show("Вы успешно авторизовались");
-                                    AuxClasses.FrameClass.frmObj.Navigate(new PageMain(userObj));
-                                }
-                                else
-                                {
-                                    userObj.IsBlocked = true;
-                                    AuxClasses.DBClass.entObj.SaveChanges();
-                                    AuxClasses.FrameClass.frmObj.Navigate(new PageBlocked());
-                                }
+                                AuxClasses.FrameClass.frmObj.Navigate(new PageBlocked());
                             }
                             else
                             {
-                                AuxClasses.FrameClass.frmObj.Navigate(new PageRegister(userObj));
+                                if (userObj.IsRegistered == true)
+                                {
+                                    TimeSpan? s = DateTime.Now - userObj.LastLoginDate;
+                                    double days = s?.TotalDays ?? 0;
+                                    if (days < 30)
+                                    {
+                                        userObj.LastLoginDate = DateTime.Now;
+                                        AuxClasses.DBClass.entObj.SaveChanges();
+                                        MessageBox.Show("Вы успешно авторизовались");
+                                        AuxClasses.FrameClass.frmObj.Navigate(new PageMain(userObj));
+                                    }
+                                    else
+                                    {
+                                        userObj.IsBlocked = true;
+                                        AuxClasses.DBClass.entObj.SaveChanges();
+                                        AuxClasses.FrameClass.frmObj.Navigate(new PageBlocked());
+                                    }
+                                }
+                                else
+                                {
+                                    AuxClasses.FrameClass.frmObj.Navigate(new PageRegister(userObj));
+                                }
+                            }
+                        }
+                        else
+                        {
+                            tbWarning.Visibility = Visibility.Visible;
+                            attempts++;
+                            if (attempts > 3)
+                            {
+                                userObj.IsBlocked = true;
+                                AuxClasses.DBClass.entObj.SaveChanges();
+                                AuxClasses.FrameClass.frmObj.Navigate(new PageBlocked());
                             }
                         }
                     }

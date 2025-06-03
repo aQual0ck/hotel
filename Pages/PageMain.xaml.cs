@@ -30,6 +30,7 @@ namespace hotel.Pages
             frmRooms.Navigate(new PageRooms());
             frmClients.Navigate(new PageClients());
             frmRoomsClients.Navigate(new PageRoomsClients());
+            frmAPI.Navigate(new PageAPI());
 
             var id = TypeDescriptor.GetProperties(DataContext)["Id"].GetValue(DataContext);
             userObj = AuxClasses.DBClass.entObj.Users.FirstOrDefault(x => x.Id == (int)id);

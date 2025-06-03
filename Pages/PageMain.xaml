@@ -26,6 +26,9 @@
             <TabItem Header="Бронь">
                 <Frame Name="frmRoomsClients"/>
             </TabItem>
+            <TabItem Header="API">
+                <Frame Name="frmAPI"/>
+            </TabItem>
         </TabControl>
     </Grid>
 </Page>
