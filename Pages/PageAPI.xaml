@@ -12,6 +12,8 @@
         <StackPanel>
             <Button Content="Получить" Click="Button_Click" Height="30"/>
             <TextBlock Name="txbResult"/>
+            <Button Content="Проверить" Click="Button_Click_1" Height="30"/>
+            <TextBlock Name="txbCheck"/>
         </StackPanel>
     </Grid>
 </Page>

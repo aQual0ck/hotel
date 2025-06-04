@@ -57,3 +57,7 @@ D:\41-П\hotel-master\obj\Debug\hotel.csproj.CoreCompileInputs.cache
 D:\41-П\hotel-master\obj\Debug\hotel.csproj.CopyComplete
 D:\41-П\hotel-master\obj\Debug\hotel.exe
 D:\41-П\hotel-master\obj\Debug\hotel.pdb
+D:\41-П\hotel-master\bin\Debug\DocumentFormat.OpenXml.dll
+D:\41-П\hotel-master\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+D:\41-П\hotel-master\bin\Debug\DocumentFormat.OpenXml.xml
+D:\41-П\hotel-master\bin\Debug\DocumentFormat.OpenXml.Framework.xml
