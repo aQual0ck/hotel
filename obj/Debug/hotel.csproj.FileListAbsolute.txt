@@ -61,3 +61,4 @@ D:\41-П\hotel-master\bin\Debug\DocumentFormat.OpenXml.dll
 D:\41-П\hotel-master\bin\Debug\DocumentFormat.OpenXml.Framework.dll
 D:\41-П\hotel-master\bin\Debug\DocumentFormat.OpenXml.xml
 D:\41-П\hotel-master\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+D:\41-П\hotel-master\obj\Debug\hotel.csproj.ResolveComReference.cache

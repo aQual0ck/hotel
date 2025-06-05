@@ -14,10 +14,11 @@ using System.Windows.Shapes;
 using System.Net.Http;
 using Newtonsoft.Json;
 using System.Text.RegularExpressions;
-using DocumentFormat.OpenXml;
-using DocumentFormat.OpenXml.Packaging;
-using DocumentFormat.OpenXml.Wordprocessing;
 using System.IO;
+using Newtonsoft.Json.Linq;
+using Microsoft.Office.Interop.Word;
+using Page = System.Windows.Controls.Page;
+using Application = Microsoft.Office.Interop.Word.Application;
 
 namespace hotel.Pages
 {
@@ -31,9 +32,6 @@ namespace hotel.Pages
             InitializeComponent();
         }
 
-        private static readonly Regex _regex = new Regex(@"[\+@]");
-        private const string path = "D:\\test\\ТестКейс.docx";
-        //+:=@&?|;^/(*!)\#%
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
             string url = "http://localhost:4444/TransferSimulator/fullName";
@@ -42,17 +40,18 @@ namespace hotel.Pages
             {
                 try
                 {
-                    HttpResponseMessage response = await client.GetAsync(url);
-                    response.EnsureSuccessStatusCode();
-
-                    string json = await response.Content.ReadAsStringAsync();
-                    var template = new
+                    var response = await client.GetAsync(url);
+                    if (response != null)
                     {
-                        value = ""
-                    };
-                    var get = JsonConvert.DeserializeAnonymousType(json, template);
-
-                    txbResult.Text = get.value;
+                        string data = await response.Content.ReadAsStringAsync();
+                        
+                        JObject obj = JObject.Parse(data);
+                        txbResult.Text = obj["value"].ToString();
+                    }
+                    else
+                    {
+                        txbResult.Text = $"Ошибка {response.StatusCode}";
+                    }
                 }
                 catch (Exception ex)
                 {
@@ -63,20 +62,26 @@ namespace hotel.Pages
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            if (_regex.IsMatch(txbResult.Text))
+            string data = txbResult.Text;
+
+            if (data.Contains('/'))
             {
-                txbCheck.Text = "ФИО содержит запрещенные символы";
+                txbCheck.Text = "Данные содержат запрещенный символ /";
+                SaveResult("Не успешно", 2);
+                SaveResult("Успешно", 1);
             }
-            else
+            else if (data.Contains('*'))
             {
-                txbCheck.Text = "ФИО не содержит запрещенные символы";
-                SaveResult(txbCheck.Text);
+                txbCheck.Text = "Данные содержат запрещенный символ *";
+                SaveResult("Не успешно", 1);
+                SaveResult("Успешно", 2);
             }
         }
 
-        private int _currentTest = 1;
-        private void SaveResult(string result)
+        private const string path = "D:\\test\\ТестКейс.docx";
+        private void SaveResult(string result, int testNumber)
         {
+            string bookmarkName = $"test{testNumber}";
             try
             {
                 if (!File.Exists(path))
@@ -86,31 +91,27 @@ namespace hotel.Pages
                     return;
                 }
 
-                using (WordprocessingDocument doc = WordprocessingDocument.Open(path, true))
+                Application word = new Application();
+                Document doc = null;
+
+                try
                 {
-                    string bookmarkName = _currentTest == 1 ? "Test1" : "Test2";
-
-                    BookmarkStart bookmark = doc.MainDocumentPart.Document.Body
-                        .Descendants<BookmarkStart>()
-                        .FirstOrDefault(b => b.Name == bookmarkName);
-
-                    if (bookmark != null)
-                    {
-                        OpenXmlElement parent = bookmark.Parent;
-                        Run newRun = new Run(new Text(result));
-                        parent.InsertAfter(newRun, bookmark);
-
-                        _currentTest = _currentTest == 1 ? 2 : 1;
-
-                        MessageBox.Show($"Результат '{result}' сохранен в закладку '{bookmarkName}'!", "Успех",
-                                        MessageBoxButton.OK, MessageBoxImage.Information);
-                    }
-                    else
-                    {
-                        MessageBox.Show($"Закладка '{bookmarkName}' не найдена в документе!", "Ошибка",
-                                        MessageBoxButton.OK, MessageBoxImage.Error);
-                    }
+                    doc = word.Documents.Open(path);
+                    var bookmark = doc.Bookmarks[bookmarkName];
+                    bookmark.Range.Text = result;
+                    doc.Save();
                 }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Ошибка {ex.Message}");
+                }
+                finally
+                {
+                    if (doc != null)
+                        doc.Close();
+                    word.Quit();
+                }
+                
             }
             catch (Exception ex)
             {
